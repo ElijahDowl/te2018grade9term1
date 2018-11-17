@@ -8,7 +8,12 @@ console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 
-
+if (age>= 18|| withAdult== "yes"){
+	console.log("Congrats you can see the movie");
+}
+else{
+	console.log("Sorry you cant see the movie")
+}
 // **** Problem 2: Umbrella ****
 // You should bring an umbrella when you travel, but only if it is raining.
 // However, if it is thunderstorming, you should not bring an umbrella since
@@ -18,6 +23,9 @@ console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
 let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
 
+if (raining== "yes"&& thunderstorming== "no"){
+	console.log
+}
 
 // **** Problem 3: Monkey Trouble ****
 // There are two monkeys: Bubbles and Spankey. You are in trouble if both of
