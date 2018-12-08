@@ -2,10 +2,12 @@ const READLINE = require("readline-sync");
 
 // **** Problem 1: print a message ****
 // Write a function that prints any message you want.
+function scorpion(){
   console.log('GET OVER HERE')
 }
 
 scorpion()
+
 
 
 
