@@ -10,11 +10,12 @@ withoutEnd("coding") → "odin"
 *******************************************************************************/
 
 function withoutEnd(str) {
-
+  let cutString = str.substring(1,str.length-1);
+  return cutString
 }
 
 // Remove comment below to test this function.
-//testWithoutEnd();
+testWithoutEnd();
 
 /******************************************************************************
                                    frontAgain()

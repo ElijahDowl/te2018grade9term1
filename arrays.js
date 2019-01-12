@@ -10,7 +10,14 @@ firstLast6([13, 6, 1, 2, 3]) → false
 *******************************************************************************/
 
 function firstLast6(nums) {
-
+let num1= firstLast6[0]
+let num2= firstLast6.length-1
+if (num1 == 6|| num2 == 6){
+  return true
+}
+else{
+  return false
+}
 }
 
 // Remove comment below to test this function.
@@ -28,6 +35,7 @@ midThree([1, 2, 3]) → [1, 2, 3]
 *******************************************************************************/
 
 function midThree(nums) {
+  
 
 }
 

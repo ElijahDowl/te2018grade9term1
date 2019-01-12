@@ -38,7 +38,8 @@ battleCry()
 // once or five times. Then call one of the two functions above based on
 // what the user decides. */
 
-let messageQuestion = 
+let messageQuestion = READLINE.QUESTION ('Would you like to hear this message 2 or 5 times?:')
+
 
 
 
@@ -63,9 +64,16 @@ parrotTrouble(true, 6) → true
 parrotTrouble(true, 7) → false
 parrotTrouble(false, 6) → false
 *******************************************************************************/
+ function parrotTrouble(talking, hour) {
+  if (talking == true && hour < 7 || hour >20){
+    return true;
+  }
+  else{
+    return false
+  }
+}
 
-
-
+parrotTrouble(true, 21);
 // Remove comment below to test this function.
 //testParrotTrouble();
 
